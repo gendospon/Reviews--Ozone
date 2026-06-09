@@ -45,7 +45,7 @@ python ozon_reviews.py fetch
 
 ## Команды
 
-! images/start.jpg
+! [Запуск] images/start.jpg
 
 ```bash
 # Получить необработанные отзывы (до 50 по умолчанию)
