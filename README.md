@@ -45,7 +45,6 @@ python ozon_reviews.py fetch
 
 ## Команды
 
-! [Запуск] [images/start.jpg](https://github.com/gendospon/Reviews--Ozone/blob/master/images/start.jpg)
 
 ```bash
 # Получить необработанные отзывы (до 50 по умолчанию)
