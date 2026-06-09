@@ -45,24 +45,21 @@ python ozon_reviews.py fetch
 
 ## Команды
 
+images/start.jpg
+
 ```bash
 # Получить необработанные отзывы (до 50 по умолчанию)
 python ozon_reviews.py fetch
 python ozon_reviews.py fetch --limit 10
 
-images/start.jpg
-
-images/feedback.jpg
 
 # Ответить на отзыв (dry-run — ответ не отправляется)
 python ozon_reviews.py post <review_id> "Текст ответа"
 
-images/reply.jpg
 
 # Ответить на отзыв (реальная отправка на Ozon)
 python ozon_reviews.py post --live <review_id> "Текст ответа"
 
-images/posted.jpg
 
 # Пометить отзыв как обработанный
 python ozon_reviews.py mark-processed <review_id>
